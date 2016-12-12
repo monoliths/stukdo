@@ -53,3 +53,6 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 
 # Awesome icons so I dont have to design a logo :)
 gem 'font-awesome-rails'
+
+# Simplify rails forms
+gem 'simple_form'
