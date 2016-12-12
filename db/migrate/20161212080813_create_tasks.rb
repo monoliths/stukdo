@@ -1,7 +1,7 @@
 class CreateTasks < ActiveRecord::Migration[5.0]
   def change
     create_table :tasks do |t|
-      t.text :context, required: true
+      t.text :content, required: true
 
       t.timestamps
     end
