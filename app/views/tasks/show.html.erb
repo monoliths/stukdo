@@ -2,7 +2,7 @@
 
 <p>
   <strong>Content:</strong>
-  <%= @task.content %>
+  <%= raw(@task.content_html) %>
   <strong>State:</strong>
   <%= @task.state %>
 </p>

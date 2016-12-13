@@ -6,7 +6,7 @@
         class: "pull-right" %>
   </div>
 
-  <div class="panel-body"><%= task.content %><br>
+  <div class="panel-body"><%= raw(task.content_html) %><br>
   	  <%= link_to 'Show', task_path(task), class: "pull-left" %>
       <%= link_to 'Edit', edit_task_path(task), class: "pull-right" %>
   </div>
