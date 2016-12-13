@@ -62,9 +62,9 @@ gem 'devise'
 
 # used for autogenerating hyperlinks, videos, etc...
 # using an older version cause it has features that arent avaiable anymore.
-gem 'auto_html', '~> 1.6'
+gem 'auto_html'
 
-group :production do 
+group :production do
 	gem 'rails_12factor'
 end
 
