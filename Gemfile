@@ -67,3 +67,6 @@ gem 'auto_html', '~> 1.6'
 group :production do 
 	gem 'rails_12factor'
 end
+
+# ruby version needed for heroku deply
+ruby '2.3.1'
